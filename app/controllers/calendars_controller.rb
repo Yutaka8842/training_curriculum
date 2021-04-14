@@ -39,6 +39,10 @@ class CalendarsController < ApplicationController
       if wday_num <= 7 
         wday_num = wday_num -7
       end
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 2d903d6 (修正)
       days = { :month => (@todays_date + x).month, :date => (@todays_date+x).day, :plans => today_plans, :wday => wdays[ wday_num + x ] }
       @week_days.push(days)
     end
